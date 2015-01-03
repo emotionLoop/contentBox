@@ -10,6 +10,7 @@
 - DEVELOPER OPTIONS FOR FREE
 
 
+
 ##About This Repo
 This repo contains the last **contentBox** version. 
 This repo is maintained by the [emotionLoop Team](http://emotionloop.com) and it's the official repo.
@@ -25,3 +26,5 @@ If you have spotted a **bug** or if you want to report an **issue**, please use 
 
 If you want to get in touch with us for any other reason please check the contact options on [http://emotionloop.com/](http://emotionloop.com/)
 
+##Prestashop Code Validation
+[![https://validator.prestashop.com](https://validator.prestashop.com/img/success-badge.jpg)](https://validator.prestashop.com)
