@@ -1,0 +1,14 @@
+.fileContainer{float:left; width:150px; min-height:100px; border:solid 1px #ccc; text-align:center; position:relative; background-color:#FFF; margin:3px; display:block;vertical-align: middle;}
+.fileUrl{position:absolute; top:0px; left:0px; width:22px; cursor:pointer;}
+.fileDelete{position:absolute; top:0px; right:0px; width:22px; cursor:pointer;}
+.fileName{position:absolute; width:100%; bottom:0px; background-color:#eee; color:#555555; overflow: hidden;}
+.mcClear{ clear: both }
+.mcClearR{ clear: right }
+.top-module-description { padding-left: 0!important; }
+.top-logo img { padding-right:7px; }
+.top-module-description > .top-module-title { margin-top:7px;margin-bottom:0; line-height: 1; }
+.top-module-description > .top-module-sub-title { color:#EB3747; margin-top: -5px; padding-left: 2px; }
+.top-module-description > .top-module-my-name { margin-top:15px}
+
+
+input.content_wrapper_id, input.content_wrapper_class { max-width: 30% !important; min-width: 200px !important;}
