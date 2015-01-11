@@ -83,14 +83,14 @@ class CONTENTBOX extends Module
 		Configuration::updateValue($this->content_wrapper_class, '');
 		Configuration::updateValue($this->content_wrapper_id, '');
 
-		$this->_clearCache('contentbox.tpl');
+		$this->_clearCache('template.tpl');
 
 		return true;
 	}
 
 	public function uninstall()
 	{
-		$this->_clearCache('contentbox.tpl');
+		$this->_clearCache('template.tpl');
 		if (!parent::uninstall()
 			|| !CONTENTBOXModel::DropTables())
 		{
@@ -176,7 +176,7 @@ class CONTENTBOX extends Module
 		$this->context->smarty->assign(
 				array( 'content' => $pre_content.$content_query['content_text'].$pos_content )
 			);
-		return $this->display(__FILE__, $this->name.'.tpl');
+		return $this->display(__FILE__, 'views/templates/front/template.tpl');
 
 	}
 
