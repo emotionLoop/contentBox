@@ -550,8 +550,8 @@ class CONTENTBOX extends Module
 		}
 		else
 		{
-			Tools::addJs($this->_path.'/js/contentbox.js');
-			Tools::addCss($this->_path.'/css/contentbox.css');
+			Context::getContext()->controller->addJs($this->_path.'/js/contentbox.js');
+			Context::getContext()->controller->addCss($this->_path.'/css/contentbox.css');
 
 		}
 		return $this->_html.$helper->generateForm($fields_form);
