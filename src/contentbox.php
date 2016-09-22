@@ -422,52 +422,52 @@ class CONTENTBOX extends Module
 								),
 								array(
 									'value' => 'div',
-									'text' => $this->l('<div>'),
+									'text' => $this->l('&lt;div&gt;'),
 								),
 								array(
 									'value' => 'article',
-									'text' => $this->l('<article>'),
+									'text' => $this->l('&lt;article&gt;'),
 								),
 								array(
 									'value' => 'blockquote',
-									'text' => $this->l('<blockquote>'),
+									'text' => $this->l('&lt;blockquote&gt;'),
 								),
 
 								array(
 									'value' => 'figure',
-									'text' => $this->l('<figure>'),
+									'text' => $this->l('&lt;figure&gt;'),
 								),
 								array(
 									'value' => 'footer',
-									'text' => $this->l('<footer>'),
+									'text' => $this->l('&lt;footer&gt;'),
 								),
 								array(
 									'value' => 'hgroup',
-									'text' => $this->l('<hgroup>'),
+									'text' => $this->l('&lt;hgroup&gt;'),
 								),
 								array(
 									'value' => 'main',
-									'text' => $this->l('<main>'),
+									'text' => $this->l('&lt;main&gt;'),
 								),
 								array(
 									'value' => 'menu',
-									'text' => $this->l('<menu>'),
+									'text' => $this->l('&lt;menu&gt;'),
 								),
 								array(
 									'value' => 'nav',
-									'text' => $this->l('<nav>'),
+									'text' => $this->l('&lt;nav&gt;'),
 								),
 								array(
 									'value' => 'p',
-									'text' => $this->l('<p>'),
+									'text' => $this->l('&lt;p&gt;'),
 								),
 								array(
 									'value' => 'section',
-									'text' => $this->l('<section>'),
+									'text' => $this->l('&lt;section&gt;'),
 								),
 								array(
 									'value' => 'span',
-									'text' => $this->l('<span>'),
+									'text' => $this->l('&lt;span&gt;'),
 								),
 							),
 							'id' => 'value',
